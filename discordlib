@@ -3145,7 +3145,7 @@ function DiscordLib:Window(text)
 			
 			function ChannelContent:Label(text)
 					
-				Label = {Text=text}
+				LabelT = {Text=text}
 
 				local Label = Instance.new("TextButton")
 				local LabelTitle = Instance.new("TextLabel")
@@ -3174,7 +3174,7 @@ function DiscordLib:Window(text)
 				LabelTitle.TextSize = 14.000
 				LabelTitle.TextXAlignment = Enum.TextXAlignment.Left
 
-				Label:SetText(text)
+				LabelT:SetText(text)
 					LabelTitle.Text = text
 				end
 				
