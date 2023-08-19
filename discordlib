@@ -3174,7 +3174,7 @@ function DiscordLib:Window(text)
 				LabelTitle.TextSize = 14.000
 				LabelTitle.TextXAlignment = Enum.TextXAlignment.Left
 
-				LabelT:SetText(text) = function()
+				LabelT.SetText = function(text)
 					LabelTitle.Text = text
 				end
 				
